@@ -33,7 +33,7 @@ const AuthModal = ({ isOpen, onClose }) => {
           </button>
           <div className={styles.loginRegister}>
             <p>
-              Don't have an account? <a href="#" onClick={() => setIsRegister(true)}> Register</a>
+              Dont have an account? <a href="#" onClick={() => setIsRegister(true)}> Register</a>
             </p>
           </div>
         </form>
